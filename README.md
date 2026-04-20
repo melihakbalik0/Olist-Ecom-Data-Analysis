@@ -15,7 +15,7 @@ This project demonstrates a complete SQL-based data engineering and analytics wo
 
 ## Analytical Outputs & Raw Data
 
-* [Data Validation Summary](./CSV%20TABLE%20OUTPUTS/Data_check_Results.csv) (Verification of 99,441 unique records to ensure 100% data integrity during migration.)
+* [Data Validation Summary](./CSV%20TABLE%20OUTPUTS/Data_Check_Results.csv) (Verification of 99,441 unique records to ensure 100% data integrity during migration.)
 * [RFM Segmentation Table](./CSV%20TABLE%20OUTPUTS/RFM_RESULTS.csv) (Customer behavioral analysis based on Recency, Frequency, and Monetary values.)
 * [Business Insights](./CSV%20TABLE%20OUTPUTS/REVENUE_LEADERS.csv) (Ranking of the Top 10 best-selling product categories by revenue and order volume.)
 * You can access the full set of analytical reports and raw data exports in the [CSV TABLE OUTPUTS](./CSV%20TABLE%20OUTPUTS/) folder.
