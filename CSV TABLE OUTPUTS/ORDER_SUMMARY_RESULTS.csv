@@ -1,0 +1,11 @@
+order_id,order_status,order_purchase_timestamp,customer_unique_id,customer_city,product_id,product_category_name,payment_value,payment_type,Delivery_Time
+f5eda0ded77c1293b04c953138c8331d,delivered,"2017-12-12 19:20:28",cbbeff6b693e69511cf9d059f4b71036,franca,00088930e925c41fd95ebfe695fd2655,automotivo,143.83,credit_card,11
+39f95a00d83145b299d7b0aeddccd24f,delivered,"2018-01-27 18:19:58",1a9158f945b8ac2cb629aed2c0711778,"palmeira das missoes",005c6b24cc96dca3e2c01e824401030e,fashion_roupa_masculina,58.60,credit_card,11
+66dea50a8b16d9b4dee7af250b4be1a5,delivered,"2018-03-08 20:57:30",60350aa974b26ff12caad89e55993bd6,lapa,006619bbed68b000c8ba3f8725d5409e,beleza_saude,86.86,debit_card,8
+19e50267c874c90f2a5a2bc9c2719e2b,delivered,"2018-05-19 14:46:42",78db93b7eb7122a51e5e5824db4578bf,"porto ferreira",006c67546bfe73c33b83f6bd1ad58c36,automotivo,80.74,boleto,18
+3ae3969a6f3d5e57d4f9fd85868ffefc,delivered,"2017-04-26 13:45:25",7f95c43c439d2d15474b0cb283b4a0e6,"sao joao da boa vista",00738f5a17ec4450e88915357b085c1e,brinquedos,34.86,credit_card,9
+62a906256e72774922d85060d98c8a5d,delivered,"2018-05-09 17:16:17",87690f1a213ef62ad0d6dd9f210c1e29,mage,0075c14603d80515e20908c156ceb47b,esporte_lazer,68.13,credit_card,10
+c760d54a108adc3592bbdb55b83f2208,delivered,"2018-05-14 11:15:07",e86d400bd1f258912eb36d32ff1e2a50,ipatinga,0075c14603d80515e20908c156ceb47b,esporte_lazer,68.13,credit_card,7
+6173d2ac44ef11cfaa9b6cd2b26ba976,delivered,"2017-11-24 22:39:49",e0d4df632ab8688a62b4020246138ed2,sinop,008686d56f4c85b987a4c24a286834c1,cama_mesa_banho,231.32,credit_card,29
+c26761f0a70b2b7e0bb437aef502ffc1,delivered,"2017-12-21 20:07:03",bd52485d06bf58d4601c482697b5d9cd,contagem,00a8c742ae1da97e9064205459977e6c,informatica_acessorios,29.09,boleto,13
+a7881f54a20f4f7547971f089438b078,delivered,"2017-03-22 10:35:21",b6497ecc6318ebd0d5c22091f702fcc8,"sao paulo",00c744ca2f3b0e76ce227b146095d3f9,brinquedos,49.55,boleto,8
