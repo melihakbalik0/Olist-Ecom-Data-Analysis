@@ -24,7 +24,7 @@ This project demonstrates a complete SQL-based data engineering and analytics wo
 
 ## Scope & Future Roadmap
 
-The current analysis focuses on core business metrics such as Revenue, Logistics, and Customer Loyalty. However, the dataset contains extensive unused metadata (product dimensions, customer reviews, and geographical details). 
+The current analysis focuses on core business metrics such as Revenue, Logistics, and Customer Loyalty. However, the dataset contains extensive unused metadata (product dimensions, customer reviews, and geographical details etc.). 
 
 These additional data points can be leveraged in future iterations to generate deeper predictive insights, such as delivery cost optimization, sentiment analysis on reviews, or regional market demand forecasting.
 
