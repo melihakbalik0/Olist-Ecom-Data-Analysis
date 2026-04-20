@@ -15,7 +15,7 @@ This project demonstrates a complete SQL-based data engineering and analytics wo
 
 ## Analytical Outputs & Raw Data
 
-* [Data Validation Summary](./CSV%20TABLE%20OUTPUTS/Data_check_Results.csv)
+* [Data Validation Summary](./CSV%20TABLE%20OUTPUTS/Data_Check_Results.csv)
 * [RFM Segmentation Table](./CSV%20TABLE%20OUTPUTS/RFM_RESULTS.csv)
 * [Business Insights](./CSV%20TABLE%20OUTPUTS/REVENUE_LEADERS.csv)
 
