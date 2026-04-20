@@ -24,16 +24,9 @@ This project demonstrates a complete SQL-based data engineering and analytics wo
 
 ## Scope & Future Roadmap
 
-**Current Focus:**
-This project specifically targets Revenue Trends, Logistics Efficiency, and Customer Loyalty (RFM). We prioritized core attributes that offer immediate strategic value to an e-commerce business.
+The current analysis focuses on core business metrics such as Revenue, Logistics, and Customer Loyalty. However, the dataset contains extensive unused metadata (product dimensions, customer reviews, and geographical details). 
 
-**Strategic Decisions:**
-The Olist dataset contains vast metadata (product dimensions, review comments, etc.) that were not fully utilized in this phase. To maintain a high-quality analytical focus, we selected the most impactful features for the current business objectives.
-
-**Future Enhancements:**
-* **Logistics Optimization:** Utilizing product dimensions and weight to calculate freight efficiency and warehouse cost-reduction models.
-* **Sentiment Analysis:** Integrating customer review text to perform NLP-based satisfaction analysis.
-* **Predictive Modeling:** Transitioning from descriptive SQL analytics to Python-based predictive models such as Customer Churn Prediction.
+These additional data points can be leveraged in future iterations to generate deeper predictive insights, such as delivery cost optimization, sentiment analysis on reviews, or regional market demand forecasting.
 
 ---
 
