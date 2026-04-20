@@ -1,40 +1,56 @@
-# 📊 Olist E-commerce Data Engineering & Analysis
+# Olist E-commerce Data Engineering & Analysis
 
-This repository demonstrates a complete SQL-based data engineering and analytics workflow using the **Olist Brazilian E-commerce dataset**. The project focuses on transforming raw transactional data into high-level business intelligence.
+This project demonstrates a complete SQL-based data engineering and analytics workflow using the Olist Brazilian E-commerce dataset. The project focuses on transforming raw transactional data into high-level business intelligence, specifically focusing on revenue growth, logistics performance, and customer loyalty.
 
 ---
 
-## 🏗 Project Architecture
+## Project Architecture
 
 1.  **Database Schema Design:** Engineered a relational database structure across 7 tables, implementing primary and foreign key constraints for data consistency.
-2.  **Data Integrity & Validation:** Conducted rigorous row-count audits to verify the migration of **99,441 unique customers** and **100,739 payment records**.
-3.  **Reporting Automation:** Built a centralized `VW_Order_Summary` View to simplify complex joins and provide a "single source of truth" for reporting.
-4.  **Advanced Analytics:** Implemented a **Recency, Frequency, Monetary (RFM)** model to segment the customer base and identify loyalty patterns.
+2.  **Data Integrity & Validation:** Conducted rigorous row-count audits to verify the migration of 99,441 unique customers and 100,739 payment records.
+3.  **Reporting Automation:** Built a centralized VW_Order_Summary View to simplify complex joins and provide a "single source of truth" for reporting.
+4.  **Advanced Analytics:** Implemented a Recency, Frequency, Monetary (RFM) model to segment the customer base and identify loyalty patterns.
 
 ---
 
-## 📈 Analytical Outputs & Raw Data
-Since this is a data-driven project, you can find all structured outputs in the `/outputs` folder. GitHub's built-in data viewer allows you to see these results as formatted tables:
+## Analytical Outputs & Raw Data
+All analysis results are documented as structured CSV files in the /outputs folder. GitHub's built-in data viewer allows you to see these results as formatted tables directly in the browser:
 
-* **[Data Validation Summary](./outputs/data_check.csv):** Proof of data integrity and record counts.
-* **[RFM Segmentation Table](./outputs/rfm_analysis.csv):** Final customer clusters based on value and activity.
-* **[Business Insights](./outputs/business_analysis.csv):** Revenue performance and logistics bottleneck analysis.
-
----
-
-## 🛠 Tech Stack & Skills
-* **Database:** MySQL (Advanced Querying, Joins, Views)
-* **Concepts:** ETL Processes, Data Normalization, Customer Segmentation (RFM), Logistics Performance Tracking.
-* **Environment:** macOS / Linux (Ubuntu)
+* [Data Validation Summary](./outputs/Data_check.csv)
+* [RFM Segmentation Table](./outputs/rfm_analysis.csv)
+* [Business Insights](./outputs/Business_Analysis.csv)
 
 ---
 
-## 📁 Repository Guide
-* `01_Database_Setup.sql`: DDL scripts for schema and constraints.
-* `02_Data_Validation.sql`: Scripts for auditing data loads.
-* `03_View_Automation.sql`: Automated view creation for analytics.
-* `04_Business_Insights.sql`: Core business metric queries.
-* `05_RFM_Analysis.sql`: Logic for the customer segmentation model.
+## Scope & Future Roadmap
+
+**Current Focus:**
+This project specifically targets Revenue Trends, Logistics Efficiency, and Customer Loyalty (RFM). We prioritized core attributes that offer immediate strategic value to an e-commerce business.
+
+**Strategic Decisions:**
+The Olist dataset contains vast metadata (product dimensions, review comments, etc.) that were not fully utilized in this phase. To maintain a high-quality analytical focus, we selected the most impactful features for the current business objectives.
+
+**Future Enhancements:**
+* **Logistics Optimization:** Utilizing product dimensions and weight to calculate freight efficiency and warehouse cost-reduction models.
+* **Sentiment Analysis:** Integrating customer review text to perform NLP-based satisfaction analysis.
+* **Predictive Modeling:** Transitioning from descriptive SQL analytics to Python-based predictive models (e.g., Customer Churn Prediction).
 
 ---
-**Developed by Melih Talha Akbalık** *Software Engineering Student @ Ankara*
+
+## Tech Stack & Skills
+* **Database:** MySQL (Advanced Querying, Joins, Views, Data Normalization)
+* **Tools:** MySQL Workbench, macOS Environment
+* **Domain:** ETL Processes, Business Intelligence, Customer Segmentation.
+
+---
+
+## Repository Guide
+* `Database_Setup.sql`: DDL scripts for schema creation and constraints.
+* `Data_check.sql`: Scripts for auditing data loads and integrity.
+* `view_order_summary.sql`: Automated view creation for analytical reporting.
+* `Business_Analysis.sql`: Core business metric queries (Revenue, Logistics).
+* `rfm_analysis.sql`: Logic for the customer segmentation model.
+
+---
+**Developed by Melih Talha Akbalık**
+*Software Engineering Student*
