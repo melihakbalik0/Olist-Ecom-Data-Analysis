@@ -41,7 +41,7 @@ These additional data points can be leveraged in future iterations to generate d
 * `Database_Setup.sql`: DDL scripts for schema creation and constraints.
 * `Data check.sql`: Scripts for auditing data loads and integrity.
 * `view order summary.sql`: Automated view creation for analytical reporting.
-* `Business_Analysis.sql`: Core business metric queries (Revenue, Logistics).
+* `Business_Analysis.sql`: Core business metric queries (Revenue, Logistics,RFM Analysis).
 
 ---
 **Developed by Melih Talha Akbalık**
